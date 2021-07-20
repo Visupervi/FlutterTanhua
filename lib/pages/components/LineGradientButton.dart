@@ -1,8 +1,8 @@
-/// 渐变按钮组件
-/// 参数：wh: 宽度 double
-/// 参数 ht: 高度 double
-/// 参数 src: 按钮背景图片，用来设置按钮渐变色
-/// 参数 text: 按钮需要显示的文字
+/// @Author visupervi
+/// @Description 渐变按钮组件
+/// @Date 8:29 上午 2021/7/20
+/// @Param 参数：wh: 宽度 double 参数 ht: 高度 double 参数 src: 按钮背景图片，用来设置按钮渐变色 参数 text: 按钮需要显示的文字
+/// @return
 
 import 'package:flutter/material.dart';
 

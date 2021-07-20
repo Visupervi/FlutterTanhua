@@ -27,7 +27,12 @@ dependencies:
     ^4.0.0
   flutter_swiper :
     ^1.1.6
-
+  common_utils:
+    ^2.0.2
+  flutter_easyloading:
+    ^3.0.0
+  dio:
+    ^4.0.0
 
 
 

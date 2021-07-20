@@ -1,3 +1,8 @@
+/// @Author visupervi
+/// @Description 我的动态页面
+/// @Date 8:41 上午 2021/7/20
+/// @Param
+/// @return
 import 'package:flutter/material.dart';
 import 'package:flutterTanhua/pages/components/CommonHeader.dart';
 import 'package:flutterTanhua/pages/friends/views/components/UserDynamic.dart';

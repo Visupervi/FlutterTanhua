@@ -1,3 +1,9 @@
+/// @Author visupervi
+/// @Description swiper 组件
+/// @Date 8:45 上午 2021/7/20
+/// @Param
+/// @return
+
 import 'dart:math';
 import 'package:flutter/material.dart';
 import '../../../data/SwiperData.dart';

@@ -4,8 +4,6 @@ import '../../../../data/questionList.dart';
 typedef OnPressedChangeState();
 
 class CreateQuestionList extends StatefulWidget {
-  // OnPressedChangeState ? onPressed;
-  // final arguments;
   CreateQuestionList({Key? key}) : super(key: key);
 
   _CreateQuestionListState createState() => _CreateQuestionListState();
@@ -18,6 +16,8 @@ class _CreateQuestionListState extends State<CreateQuestionList> {
     return Stack(
       alignment: Alignment.center,
       children: <Widget>[
+
+        //左部图片
         Positioned(
             left: 0,
             top: 60,
@@ -29,6 +29,7 @@ class _CreateQuestionListState extends State<CreateQuestionList> {
                       image: AssetImage("images/qatext.png"),
                       fit: BoxFit.cover)),
             )),
+        // 右部图片
         Positioned(
             right: 0,
             top: 60,
@@ -49,6 +50,7 @@ class _CreateQuestionListState extends State<CreateQuestionList> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: <Widget>[
+                  // 第几题
                   Align(
                     child: Text(
                       "第${currentPage + 1}题",
@@ -67,9 +69,6 @@ class _CreateQuestionListState extends State<CreateQuestionList> {
                       )),
                     ],
                   ),
-                  // Expanded(child:
-                  //         Text("未来生活的幸福指数", maxLines: 2, style: TextStyle(color: Colors.white),)
-                  // ),
                 ],
               ),
             )),
@@ -127,6 +126,7 @@ class _CreateQuestionListState extends State<CreateQuestionList> {
                     ),
                   ),
                   onTap: () {
+                    // setState修改状态数据
                     setState(() {
                       if (currentPage >= questionList.length - 1) {
                         Navigator.pushNamed(context, "/testAnalysis");

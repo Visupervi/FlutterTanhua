@@ -1,5 +1,10 @@
 
-/// 交友详情页面
+/// @Author visupervi
+/// @Description 交友详情页面
+/// @Date 8:31 上午 2021/7/20
+/// @Param
+/// @return
+
 import 'package:flutter/material.dart';
 import 'package:flutterTanhua/pages/components/CommonHeader.dart';
 import 'package:flutterTanhua/pages/components/CrossLine.dart';

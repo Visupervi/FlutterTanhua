@@ -1,3 +1,9 @@
+/// @Author visupervi
+/// @Description 附近的人组件
+/// @Date 8:46 上午 2021/7/20
+/// @Param
+/// @return
+
 import 'package:flutter/material.dart';
 import 'dart:math';
 import '../../../data/NearPerson.dart';

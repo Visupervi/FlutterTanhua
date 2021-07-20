@@ -1,3 +1,8 @@
+/// @Author visupervi
+/// @Description 人员详情数据
+/// @Date 8:22 上午 2021/7/20
+/// @Param
+/// @return
 Map result = {
   "userInfo": {
     "id": 1003,

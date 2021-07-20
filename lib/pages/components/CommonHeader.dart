@@ -1,5 +1,8 @@
-/// 自定义app头部， 默认返回上一页
-/// 参数 title：header显示的文字
+/// @Author visupervi
+/// @Description 自定义app头部， 默认返回上一页
+/// @Date 8:22 上午 2021/7/20
+/// @Param 参数 title：header显示的文字
+/// @return
 import 'package:flutter/material.dart';
 
 class CommonHeader extends StatefulWidget {

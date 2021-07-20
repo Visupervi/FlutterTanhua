@@ -1,4 +1,9 @@
-/// 测灵魂页面
+/// @Author visupervi
+/// @Description 测灵魂页面
+/// @Date 8:52 上午 2021/7/20
+/// @Param
+/// @return
+
 import 'package:flutter/material.dart';
 import 'package:flutterTanhua/pages/components/CommonHeader.dart';
 import 'package:flutterTanhua/pages/components/LineGradientButton.dart';

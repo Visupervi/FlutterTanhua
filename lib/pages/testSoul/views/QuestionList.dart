@@ -1,7 +1,12 @@
+/// @Author visupervi
+/// @Description 试题页面
+/// @Date 8:53 上午 2021/7/20
+/// @Param
+/// @return
 import 'package:flutter/material.dart';
 import 'package:flutterTanhua/pages/components/CommonHeader.dart';
 import './components/CreateQuestionList.dart';
-import '../../../data/questionList.dart';
+
 class QuestionList extends StatefulWidget {
   final arguments;
   const QuestionList({Key? this.arguments});
@@ -10,18 +15,7 @@ class QuestionList extends StatefulWidget {
 }
 
 class _QuestionListState extends State<QuestionList> {
-  // int currentPage = 0;
-  // void _onPressed(){
-  //   print({"current": currentPage});
-  //   if (currentPage <= questionList.length - 1) {
-  //     setState(() {
-  //       currentPage++;
-  //     });
-  //     print("_onPressed1");
-  //   } else {
-  //     print("_onPressed2");
-  //   }
-  // }
+
   @override
   Widget build(BuildContext context) {
 

@@ -1,6 +1,10 @@
+/// @Author visupervi
+/// @Description 背景组件
+/// @Date 8:44 上午 2021/7/20
+/// @Param
+/// @return
 import 'package:flutter/material.dart';
 import 'MySwiper.dart';
-import '../../../data/SwiperData.dart';
 class ImageBgc extends StatefulWidget {
   const ImageBgc({Key? key}) : super (key: key);
 

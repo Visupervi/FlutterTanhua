@@ -1,6 +1,8 @@
-/// 此组件是为页面添加分割用的，属于状态组件，可以给此组件传值
-/// 参数height是分割线的高度
-/// 参数text是分割块中的文字
+/// @Author visupervi
+/// @Description 此组件是为页面添加分割用的，属于状态组件，可以给此组件传值
+/// @Date 8:28 上午 2021/7/20
+/// @Param 参数height是分割线的高度 参数text是分割块中的文字
+/// @return
 import 'package:flutter/material.dart';
 
 class CrossLine extends StatefulWidget {

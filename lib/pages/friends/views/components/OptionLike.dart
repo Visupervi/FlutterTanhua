@@ -1,3 +1,9 @@
+/// @Author visupervi
+/// @Description 交友操作组件
+/// @Date 8:32 上午 2021/7/20
+/// @Param
+/// @return
+
 import 'package:flutter/material.dart';
 import 'package:flutterTanhua/pages/components/LineGradientButton.dart';
 

@@ -1,4 +1,9 @@
-/// 搜附近页面
+/// @Author visupervi
+/// @Description 搜附近页面
+/// @Date 8:45 上午 2021/7/20
+/// @Param
+/// @return
+
 import 'package:flutter/material.dart';
 import '../components/CommonHeader.dart';
 import 'components/NearPersonList.dart';

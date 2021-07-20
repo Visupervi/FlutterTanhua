@@ -1,3 +1,8 @@
+/// @Author visupervi
+/// @Description swiper数据
+/// @Date 8:22 上午 2021/7/20
+/// @Param
+/// @return
 List images = [
   {
     "id": 1340,

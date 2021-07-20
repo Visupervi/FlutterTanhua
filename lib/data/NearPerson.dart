@@ -1,3 +1,8 @@
+/// @Author visupervi
+/// @Description 附近的人数据
+/// @Date 8:22 上午 2021/7/20
+/// @Param
+/// @return
 List nearPersonList = [
   {
     "id": 1340,

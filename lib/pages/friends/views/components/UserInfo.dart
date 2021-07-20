@@ -1,3 +1,10 @@
+/// @Author visupervi
+/// @Description 用户信息组件
+/// @Date 8:33 上午 2021/7/20
+/// @Param
+/// @return
+
+
 import 'package:flutter/material.dart';
 import '../../../../data/UserDetail.dart';
 class UserInfo extends StatefulWidget {

@@ -1,3 +1,10 @@
+/// setting页面
+/// @Author visupervi
+/// @Description
+/// @Date 8:21 上午 2021/7/20
+/// @Param
+/// @return
+
 import 'package:flutter/material.dart';
 import 'package:flutterTanhua/pages/components/CommonHeader.dart';
 

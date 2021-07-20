@@ -1,4 +1,10 @@
-/// 交友首页页面
+
+/// @Author visupervi
+/// @Description 交友首页页面
+/// @Date 8:30 上午 2021/7/20
+/// @Param
+/// @return
+
 import 'package:flutter/material.dart';
 import 'components/Header.dart';
 import 'components/NearLook.dart';

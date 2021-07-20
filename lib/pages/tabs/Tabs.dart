@@ -1,5 +1,9 @@
+/// @Author visupervi
+/// @Description 自定义Tabs组件
+/// @Date 8:50 上午 2021/7/20
+/// @Param
+/// @return
 
-// 自定义Tabs组件
 import 'package:flutter/material.dart';
 import '../circle/Circle.dart';
 import '../friends/Friends.dart';
@@ -37,19 +41,19 @@ class _TabsState extends State<Tabs> {
         items: [
           BottomNavigationBarItem(
               icon: Icon(Icons.person_add_alt_1_rounded),
-              title: Text("交友")
+              label: "交友"
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.brightness_1_outlined ),
-              title: Text("圈子")
+              label: "圈子"
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.message_outlined),
-              title: Text("消息"),
+              label: "消息",
           ),
           BottomNavigationBarItem(
               icon: Icon(Icons.account_circle),
-              title: Text("我的")
+              label: "我的"
           )
         ],
       ), // This trailing comma makes auto-formatting nicer for build methods.

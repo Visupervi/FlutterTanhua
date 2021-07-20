@@ -1,3 +1,9 @@
+///http请求封装
+/// @Author visupervi
+/// @Description 对get请求与post请求进行封装
+/// @Date 8:22 上午 2021/7/20
+/// @Param
+/// @return
 import 'dart:convert';
 import 'package:common_utils/common_utils.dart';
 import 'package:dio/dio.dart';
@@ -16,7 +22,7 @@ class Request {
 
   // _request 是核心函数，所有的请求都会走这里
   static Future<T> _request<T>(String path,
-      {String ? method, Map ? params, data}) async {
+      {String? method, Map? params, data}) async {
     // restful 请求处理
     if (params != null) {
       params.forEach((key, value) {
@@ -133,11 +139,11 @@ class Request {
   }
 
 
-  static Future<T> get<T>(String path, {Map ? params}) {
+  static Future<T> get<T>(String path, {Map? params}) {
     return _request(path, method: 'get', params: params);
   }
 
-  static Future<T> post<T>(String path, {Map ? params, data}) {
+  static Future<T> post<T>(String path, {Map? params, data}) {
     return _request(path, method: 'post', params: params, data: data);
   }
 }
