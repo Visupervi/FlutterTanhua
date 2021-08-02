@@ -14,3 +14,14 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+#### 1. 项目里面包含的东西还是很多的
+     1. 路由控制
+     2. tab切换
+     3. 父子组件传值
+     4. 自定义动画
+     5. 列表
+     6. 背景图片
+     7. 按钮封装
+     8. 请求封装
+#### 2. 遇到的问题
+ 
