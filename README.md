@@ -25,3 +25,7 @@ samples, guidance on mobile development, and a full API reference.
      8. 请求封装
 #### 2. 遇到的问题
  
+
+
+https://user-images.githubusercontent.com/28976251/154665188-9f903db1-c6c7-4bc8-b5c5-5a9fe8f5b1ed.mp4
+
